@@ -21,7 +21,7 @@ class UserTableSeeder extends Seeder
     {
         $now = Carbon::now('America/Mexico_City')->format('Y-m-d H:i:s');
         DB::table('users')->insert([
-        "name" => 'Carlos', 
+        "name" => 'Carlos Requena Alvarez', 
         "email" => 'al22201784@gmail.com',
         "password" => bcrypt(12345678),
         "created_at" => $now,
